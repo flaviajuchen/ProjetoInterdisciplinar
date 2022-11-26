@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="principal.css">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>TEM JOGO?</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TEM<span>JOGO?</span></a>
+        <ul class="navbar">
+            <li><a href="#about">COMO FUNCIONA?</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./login.html">Cadastre-se</a></li>
+        </ul>
+    </header>
+    <section class="front" id="front">
+        <div class="content">
+            <h2 class="titulo">Bem vindo ao novo modo de encontrar uma equipe <br> para praticar seu esporte favorito!</h2>
+            <p>Escolha já seu esporte favorito e econtre uma equipe!</p>
+            <a href="./login.html" class="btn">Junte-se a um time!</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+                <h2 class="titulo2">Como funciona?</h2>
+                <p>1 - Faça seu login ou cadastre-se. <br>2 - Entre com seu usuário, selecione o esporte que deseja praticar e encontre uma equipe  que esteja buscando mais jogadores.<br>3 - Ao encontrar uma equipe, aguarde a confirmação do local e horário pelo líder da equipe.<br> E pronto! É só partir pro jogo!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Criado por <a href="https://instagram.com/flaviajuchen">©Flavia Regina Juchen</a> | Todos os direitos reservados 2022</span>
+    </footer>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+        const header = this.document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
